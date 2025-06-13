@@ -63,7 +63,24 @@ class math_function:
         # decimal = int(hexa, 16)  # Interpréter la chaîne comme un nombre en base 16
         # print("Le nombre en décimal est :", decimal)
         pass
+
+
+    def algorithm(self):
+        n = int(input("Entrez un nombre : "))
+        m = int(input("Entrez un nombre : "))
+        nb = n**2 - m * 10
+        print(nb)
+        
+        pass
      
+
+
+
+
+
+
+
+
         
         
 
