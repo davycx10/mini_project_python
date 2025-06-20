@@ -3,8 +3,7 @@ class Batiment:
     def __init__(self, étage, adresse, noms):
         self.étage = étage
         self.adresse = adresse
-        self.noms = noms
-        
+        self.noms = noms       
     def get_étage(self):
         return self.étage
     
